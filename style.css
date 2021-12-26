@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: -30px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  color: dimgray;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+section {
+  height: 500px;
+  padding-bottom: 200px;
+}
+.name-highlight {
+  font-size: 50px;
+  color: palevioletred;
+}
+.header {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 3%;
+}
+.half-width img {
+  width: 100%;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(252, 174, 200),
+    rgb(216, 112, 147)
+  );
+}
+.biography {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biography-info {
+  margin-top: 150px;
+}
+.latest-work {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.latest-work h2 {
+  margin: 40px 0;
+}
+.latest-work img {
+  width: 30%;
+}
+.testimonial {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -150px;
+  text-align: center;
+  position: relative;
+}
+.testimonial-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonial h2 {
+  margin-bottom: 60px;
+}
+.testimonial h3 {
+  margin-bottom: 0;
+}
+.testimonial p {
+  margin: 0;
+}
+.testimonial q {
+  font-size: 20px;
+  width: 50%;
+}
+.send-message {
+  width: 700px;
+  height: 200px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(252, 174, 200),
+    rgb(216, 112, 147)
+  );
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.send-message p {
+  padding-top: 50px;
+  color: white;
+  padding-bottom: 0;
+}
+.send-message h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+footer p {
+  text-align: center;
+  font-size: 14px;
+}
